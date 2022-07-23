@@ -1,0 +1,64 @@
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+    background-color: grey;
+}
+
+.orange {
+    background: darkorange;
+    color: white;
+}
+
+.orange:hover {
+    background-color: white;
+    color: orange;
+}
+
+.caculator {
+    width: 350px;
+    height: 600px;
+    margin: 35% auto;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.monitor {
+    .out-put {
+        margin: 80px 30px 0px;
+        font-size: 2.5rem;
+        text-align: right;
+        color: white;
+    }
+}
+
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    background: rgb(36, 36, 36);
+    gap: 15px;
+    padding: 20px;
+}
+
+.keyboard-row {
+    display: flex;
+    gap: 15px;
+    .one-block {
+        width: 25%;
+        aspect-ratio: 1/1;
+    }
+
+    .two-block {
+        width: calc(50% - -21px);
+        aspect-ratio: 2/1;
+    }
+}
